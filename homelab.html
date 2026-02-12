@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Home Lab</title>
+    <link rel="stylesheet" href="output.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body class="bg-white text-black dark:bg-gray-900 dark:text-white transition-all duration-300 ease-out">
+     <nav class="sticky top-0 z-50 bg-gray-200 dark:bg-gray-800 backdrop-blur dark:text-white">
+
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="h-16 flex items-center justify-between">
+        
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-3">
+    
+          <span class="font-bold text-xl">Joseph Laudati</span>
+        </a>
+
+        <!-- Desktop Links -->
+        <div class="hidden md:flex gap-6">
+            <a href="index.html#about" class="px-3 py-2 rounded hover:bg-black/5 dark:hover:bg-white/10">About Me</a>
+            <a href="/projectMenu.html" class="px-3 py-2 rounded hover:bg-black/5 dark:hover:bg-white/10">Projects</a>
+            <a href="index.html#contactInfo" class="px-3 py-2 rounded hover:bg-black/5 dark:hover:bg-white/10">Contact Info</a>   
+        </div>
+
+        <!-- Mobile Hamburger -->
+        <details class="md:hidden relative">
+          <summary class="list-none cursor-pointer p-2 rounded hover:bg-black/5 dark:hover:bg-white/5">
+            <!-- Hamburger Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </summary>
+          <!-- Dropdown menu -->
+          <div class="absolute right-0 mt-2 w-40 rounded border bg-gray-200 dark:bg-gray-800 shadow-lg flex flex-col p-2">
+            <a href="index.html#about" class="px-3 py-2 rounded hover:bg-black/5 dark:hover:bg-white/10">About Me</a>
+            <a href="/projectMenu.html" class="px-3 py-2 rounded hover:bg-black/5 dark:hover:bg-white/10">Projects</a>
+            <a href="index.html#contactInfo" class="px-3 py-2 rounded hover:bg-black/5 dark:hover:bg-white/10">Contact Info</a>
+            
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </nav>
+  <h1 class="text-center text-5xl font-bold mt-10 mb-10" style="margin-bottom: 20%;">
+    My Home Lab
+  </h1>
+
+<img src="/images/71RX78c5u0L._AC_SL1500_.jpg" alt="R610 example" class="w-100 h-150 rounded-2xl mx-auto object-cover">
+<h3 class="text-2xl text-center mx-auto max-w-[500px] mt-6 p-5 mb-5 font-bold">Project Conception</h3>
+<h2 class="text-sm text-center mx-auto max-w-[500px] mt-6 p-5 mb-10" style="margin-bottom: 20%;">
+    Building a server for the first time was probably one of the coolest
+    feats I have accomplished. I wanted to have my very own development environment to
+    do whatever I pleased, as well as have a place to host websites and
+    Minecraft servers if I felt like taking a break from work. So I decided
+    to choose the Dell R610 to start my work. With a two-and-a-half hour drive
+    to Chapin, I picked up the device and got to work.
+    <br><br>
+
+    Getting this ancient beast to work in the modern age was not an easy task. I would be 
+    working with an unsupported platform with drivers and software likely
+    unavailable to the public. Luckily, I was able to get things moving when I discovered
+    that custom drivers an anonymous IT specialist had developed. With that, 
+    I successfully connected "JServer" to my LAN and eventually the WAN.
+</h2>
+
+
+<img src="/images/Ubuntu-Server-Terminal.webp" alt="Terminal" class="w-100 h-150 rounded-2xl mx-auto mt-6 object-cover">
+<h3 class="text-2xl text-center mx-auto max-w-[500px] mt-6 p-5 mb-5 font-bold">Configuration and Environment</h3>
+<h2 class="text-sm text-center mx-auto max-w-[500px] mt-6 p-5 mb-10">
+    When configuring this server, I felt that it would be best to set it up with Ubuntu Server
+    as Linux is one of the most liberating experiences I've had on a computer.
+    A Unix-based server environment felt like the best choice due to my love for
+    Apple's macOS environment, as well as the vast support that Ubuntu Server has
+    for older machines.
+    <br><br>
+
+    For web hosting, I figured that using NGINX and Uvicorn would be the best choice,
+    as using NGINX's reverse proxy feature keeps my backend safe and secure from
+    potential attackers. Uvicorn would be my instance that supports my APIs
+    due to its ease of use.
+
+</h2>
+
+
+<h3 class="text-2xl text-center mx-auto max-w-[500px] mt-6 p-5 mb-5 font-bold" style="margin-top: 10%;">My Experience</h3>
+<h2 class="text-sm text-center mx-auto max-w-[500px] mt-6 p-5 mb-10">
+    Developing this server to what it is now was the experience I needed
+    to ultimately choose what I wanted to do in my career. Being able to
+    interact with this complex machine allowed me to truly understand 
+    what it takes to keep the lights on on the internet. From getting 
+    the server exposed to the internet, to getting my first cron job
+    to automatically run a script, to finally seeing a live website, 
+    it was a wild ride through IT and Full Stack development as I now
+    have the experience in both networking and building complex software.
+
+</h2>
+
+
+
+
+</body>
+</html>
